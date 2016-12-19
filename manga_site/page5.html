@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Page5</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+      <div id="relative">
+         <!-- HEADER -->
+         <header>
+            <form method="post" action="mailto:thb@abv.bg" type="text/plain">
+               <div id="first">Search:<input type="text" name="Search" placeholder="Търси в сайта...">
+                  <input type="submit" value="Търси">
+               </div>
+            </form>
+         </header>
+         <!-- MAIN -->
+         <main>
+            <!-- ASIDE -->
+            <aside>
+               <nav>
+                  <ul>
+                     <li><a href="page1.html">НАЧАЛО</a></li>
+                     <li><a href="page2.html">КАКВО Е МАНГА?</a></li>
+                     <li><a href="page3.html">ОСОБЕНОСТИ</a></li>
+                     <li><a href="page4.html">ОСНОВНИ ЖАНРОВЕ</a></li>
+                     <li><a href="page5.html">КОНТАКТИ</a></li>
+                  </ul>
+               </nav>
+            </aside>
+            <div id="second">
+               <!-- Create a form for contact-->
+               <h3>За връзка с нас:</h3>
+               <img src="img/eyes.png" alt="japan">
+               <form method="post" action="mailto:thb@abv.bg" type="text/plain">
+                  <div id="form">
+                     <p><label for="name"><span>Име:</span></label>
+                        <input id="name" type="text" name="first_name" placeholder="Name">
+                     </p>
+                     <p><label for="mail"><span>E-mail:</span></label>
+                        <input id="mail" type="text" name="mail" placeholder="E-mail">
+                     </p>
+                     <p><span>Пол:</span>
+                        <label for="female">жена</label>
+                        <input id="female" type="radio" name="gender" value="female">
+                        <label for="male">мъж</label>
+                        <input id="male" type="radio" name="gender" value="male">
+                     </p>
+                     <p>
+                        <span>Години:</span>
+                        <select name="age">
+                           <option value="0">_</option>
+                           <option value="1">под 12</option>
+                           <option value="2">от 12 до 18</option>
+                           <option value="3">от 18 до 30</option>
+                           <option value="4">Над 30</option>
+                        </select>
+                     </p>
+                     <p><span>Любим жанр манга:</span></p>
+                     <label for="kodomo">Kodomo</label>
+                     <input id="kodomo" type="checkbox" name="kodomo" value="kodomo">
+                     <label for="shonen">Shonen</label>
+                     <input id="shonen" type="checkbox" name="shonen" value="shonen">
+                     <label for="shojo">Shojo</label>
+                     <input id="shojo" type="checkbox" name="shojo" value="shojo">
+                     <label for="seinen">Sеinen </label>
+                     <input id="seinen" type="checkbox" name="seinen" value="seinen">
+                     <label for="josei">Josei</label>
+                     <input id="josei" type="checkbox" name="josei" value="josei">
+                     <p><span>Коментари/Въпроси:</span></p>
+                     <textarea name="message">Пишете ни...</textarea>
+                     <p><input type="submit" value="Изпрати"></p>
+                  </div>
+               </form>
+            </div>
+            <div id="third">
+               <img src="img/111.png" alt="manga">
+            </div>
+         </main>
+         <!-- FOOTER -->
+         <footer>
+            <div id="footer">Design by Tanya Panzolovska</div>
+         </footer>
+      </div>
+   </body>
+</html>
